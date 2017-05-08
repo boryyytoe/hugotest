@@ -6,7 +6,7 @@ layout = "expo"
 tags = []
 textfield1 = ""
 title = "agenda"
-type = "agenda"
+type = "default"
 
 +++
 
