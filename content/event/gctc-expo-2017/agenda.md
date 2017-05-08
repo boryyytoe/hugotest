@@ -1,7 +1,7 @@
 +++
 categories = []
 date = "2017-04-17T12:41:52-04:00"
-file = []
+file = "/uploads/2017/05/03/20170501 Agenda Short V4 SR.pdf"
 layout = "expo"
 tags = []
 title = "agenda"
