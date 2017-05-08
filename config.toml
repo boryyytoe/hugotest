@@ -1,0 +1,177 @@
+languageCode = "en-us"
+title = "Global City Team Challenge"
+baseURL = "https://pages.nist.gov/GCTC/"
+theme = "hugo-universal-theme"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "UA-98010590-1"
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url  = "#"
+	identifier = "about"
+    weight = 2
+	
+[[menu.main]]
+    name = "The GCTC"
+    url  = "/about/the-gctc"
+    weight = 7
+	parent = "about"
+	
+[[menu.main]]
+    name = "Participation Guide"
+    url  = "/about/participation-guide"
+    weight = 8
+	parent = "about"	
+	
+[[menu.main]]
+    name = "Partners"
+    url  = "/about/partners/"
+    weight = 9
+	parent = "about"
+	
+[[menu.main]]
+    name = "Events"
+    url  = "#"
+	identifier = "event"
+    weight = 3
+
+[[menu.main]]
+    name = "SuperClusters"
+    url  = "/super-clusters/"
+    weight = 4
+
+[[menu.main]]
+    name = "Action Clusters"
+    url  = "/action-clusters/"
+    weight = 5
+	
+[[menu.main]]
+    name = "GCTC EXPO 2017"
+    url  = "/event/gctc-expo-2017"
+    weight = 6
+	parent = "event"
+	
+
+[[menu.expomenu]]
+	name = "Agenda"
+	url = "/event/gctc-expo-2017/agenda"
+	weight = 1
+	
+[[menu.expomenu]]
+	name = "Exhibits"
+	url = "/event/gctc-expo-2017/exhibit"
+	weight = 2
+
+[[menu.expomenu]]
+	name = "Logistics"
+	url = "/event/gctc-expo-2017/logistics"
+	weight = 3
+
+[[menu.expomenu]]
+	name = "News"
+	url = "/event/gctc-expo-2017/news"
+	weight = 4
+
+[[menu.expomenu]]
+	name = "Expo Presentations"
+	url = "/event/gctc-expo-2017/expo-presentations"
+	weight = 5	
+	
+	
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "cbuth@akimeka.com"
+
+    # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2016 - 2017, Global City Team Challenge all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+
+    latitude = "-12.043333"
+    longitude = "-77.028333"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.aboutblurb]
+    enable = true
+	
+[params.governments]
+    enable = true
+	
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = false
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Participating Municipal Governments"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = false
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

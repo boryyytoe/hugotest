@@ -1,0 +1,29 @@
+﻿{{ if isset .Site.Params "governments" }}
+{{ if .Site.Params.governments.enable }}
+{{ if gt (len .Site.Data.governments) 0 }}
+<section class="bar background-gray no-mb">            
+        <div class="container">
+            <div>
+                {{ range sort .Site.Data.governments "weight" }}
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-12">
+							<div class="heading text-center">
+								<h2>Participating Municipal Governments</h2>
+							</div>
+							<div id="govListing">                           
+                            {{ .listing | safeHTML }}
+							</div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                {{ end }}
+            </div>            
+        </div>    
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

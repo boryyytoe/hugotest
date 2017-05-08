@@ -1,0 +1,29 @@
+﻿{{ if isset .Site.Params "aboutblurb" }}
+{{ if .Site.Params.aboutblurb.enable }}
+{{ if gt (len .Site.Data.aboutblurb) 0 }}
+<section>            
+        <div class="container">
+            <div class="introWrap">
+                {{ range sort .Site.Data.aboutblurb "weight" }}
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <!-- <h2>{{ .title }}</h2> -->
+                            {{ .description | safeHTML }}
+                        </div>
+                        
+                        <div class="col-sm-4">
+							<h3>{{ .goaltitle }}</h3>
+                           {{ .goaldescription | safeHTML }}
+                        </div>
+                        
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.project owl-slider -->
+        </div>    
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
