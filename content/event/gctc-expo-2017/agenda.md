@@ -11,8 +11,6 @@ title = "agenda"
 type = "expoagenda"
 
 +++
-
-
 Test
 
 Test
