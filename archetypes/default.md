@@ -7,5 +7,3 @@ banner = ""
 images = []
 
 +++
-
-<!--more-->
