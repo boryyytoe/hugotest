@@ -8,7 +8,7 @@ menu = ""
 tags = []
 textfield1 = ""
 title = "agenda"
-type = "page"
+type = "agenda"
 
 +++
 
