@@ -6,6 +6,7 @@ file = "/uploads/2017/05/03/Teledoc.pdf"
 menu = ""
 tags = []
 title = "test upload"
+type = "expoagenda"
 
 +++
 
