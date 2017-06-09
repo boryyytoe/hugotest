@@ -1,15 +1,12 @@
 +++
 categories = []
 date = "2017-04-04T14:13:43Z"
-draft = false
 layout = "supercluster"
 tags = []
 title = "SuperClusters"
 type = "page"
 
 +++
-
-
 A SuperCluster is a multi-city, multi-stakeholder collaboration organized around common project objectives and shared solutions. Committed cities/communities and partners jointly tackle shared issues – develop and deploy shares solutions to create economies of scale. Each SuperCluster produces blueprint/playbook to be used by cities and communities around the world as the foundation to build their own smart city strategies. A SuperCluster is an alliance of action clusters in the same sector, and may be joined by individual entities that do not belong to a specific action cluster.
 
 ## Transportation SuperCluster (TSC)
@@ -21,6 +18,8 @@ This supercluster was formed and is managed by forward looking municipalities in
 **Wilfred Pinfold, CEO, Urban Systems**
 
 ![](/GCTC/uploads/2017/04/19/Wilfred_Pinfold.png)
+
+[![](/GCTC/uploads/2017/04/19/Wilfred_Pinfold.png)](http://www.google.com)
 
 **Skip Newbery, President and CEO, Technology Associates of Oregon**
 
