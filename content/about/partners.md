@@ -6,8 +6,13 @@ title = "partners"
 type = "page"
 
 +++
+
+
 ### US Federal Government Partners
+
 ![](/GCTC/uploads/2017/06/08/NSF.png)
+
 ### Non-Governmental Organization (NGO) Partners
 
-![](/GCTC/uploads/2017/05/05/20170505%20GCTC%202016_2017%20NGO%20Partners.png)
+![](/uploads/2017/04/19/skip_newberry.jpeg)
+
